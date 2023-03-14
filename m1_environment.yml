@@ -1,10 +1,10 @@
-name: book_env
+name: pandasAnalysis
 channels:
     - conda-forge
 dependencies:
     - python=3.9
     - libgfortran=5.0.0.dev0  # pin this to fix scipy packaging issue
-    - cartopy=0.18.0
+    - cartopy=0.20.0
     - imbalanced-learn=0.7.0
     - ipympl=0.6.2
     - jupyterlab=3.0.4
